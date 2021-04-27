@@ -41,7 +41,11 @@ VM Generation Support: Generation 1<br>
 
 **Q:** Do I need to use NP VMs to develop my solution? 
 
-**A:** No, you can develop on-premise and deploy to the cloud! Please make sure to follow the attestation documentation to deploy on NP VMs. 
+**A:** No, you can develop on-premise and deploy to the cloud! Please make sure to follow the [attestation documentation](https://docs.microsoft.com/en-us/azure/virtual-machines/field-programmable-gate-arrays-attestation) to deploy on NP VMs. 
+
+**Q:** Which file returned from attestation should I use when programming my FPGA in an NP VM?
+
+**A:** Attestation returns two xclbins, **design.bit.xclbin** and **design.azure.xclbin**. Please use **design.azure.xclbin**.
 
 **Q:** What Version of XRT should I use?
 
