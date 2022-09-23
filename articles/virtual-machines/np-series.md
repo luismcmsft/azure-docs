@@ -16,7 +16,7 @@ ms.author: luismc
 The NP-series virtual machines are powered by [Xilinx U250](https://www.xilinx.com/products/boards-and-kits/alveo/u250.html) FPGAs for accelerating workloads including machine learning inference, video transcoding, and database search & analytics. NP-series VMs are also powered by Intel Xeon 8171M (Skylake) CPUs with all core turbo clock speed of 3.2 GHz.
 
 [Premium Storage](premium-storage-performance.md): Supported<br>
-[Premium Storage caching](premium-storage-performance.md): Supported<br>
+[Premium Storage caching](premium-storage-performance.md#disk-caching): Supported<br>
 [Live Migration](maintenance-and-updates.md): Not Supported<br>
 [Memory Preserving Updates](maintenance-and-updates.md): Not Supported<br>
 VM Generation Support: Generation 1<br>
@@ -40,7 +40,7 @@ VM Generation Support: Generation 1<br>
 
 **Q:** How to request quota for NP VMs?
 
-**A:** Please follow this page [Increase limits by VM series](../azure-portal/supportability/per-vm-quota-requests.md). NP VMs are available in East US, West US2, West Europe, SouthEast Asia, and SouthCentral US.
+**A:** Please follow this page [Increase VM-family vCPU quotas](../azure-portal/supportability/per-vm-quota-requests.md). NP VMs are available in East US, West US2, West Europe, SouthEast Asia, and SouthCentral US.
 
 **Q:** What version of Vitis should I use? 
 
