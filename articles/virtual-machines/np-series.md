@@ -80,13 +80,13 @@ VM Generation Support: Generation 1<br>
 
 **A:** Xilinx and Microsoft have validated Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, and CentOS 7.8.
 
- Xilinx has created the following marketplace images to simplify the deployment of these VMs. 
-
-Xilinx Alveo U250 2022.1 Deployment VM [Ubuntu18.04](https://portal.azure.com/#create/xilinx.vitis2022_1_ubuntu1804_development_imagevitis2022_1_ubuntu1804)
-
-Xilinx Alveo U250 2022.1 Deployment VM [Ubuntu20.04](https://portal.azure.com/#create/xilinx.vitis2022_1_ubuntu2004_development_imagevitis2022_1_ubuntu2004)
-
-Xilinx Alveo U250 2022.1 Deployment VM [CentOS7.8](https://portal.azure.com/#create/xilinx.vitis2022_1_centos78_development_imagevitis2022_1_centos78)
+>Xilinx has created the following marketplace images to simplify the deployment of these VMs: 
+>
+>- Xilinx Alveo U250 2022.1 Deployment VM [Ubuntu18.04](https://portal.azure.com/#create/xilinx.vitis2022_1_ubuntu1804_development_imagevitis2022_1_ubuntu1804)
+>
+>- Xilinx Alveo U250 2022.1 Deployment VM [Ubuntu20.04](https://portal.azure.com/#create/xilinx.vitis2022_1_ubuntu2004_development_imagevitis2022_1_ubuntu2004)
+>
+>- Xilinx Alveo U250 2022.1 Deployment VM [CentOS7.8](https://portal.azure.com/#create/xilinx.vitis2022_1_centos78_development_imagevitis2022_1_centos78)
 
 **Q:** Can I deploy my Own Ubuntu / CentOS VMs and install XRT / Deployment Target Platform? 
 
@@ -95,43 +95,42 @@ Xilinx Alveo U250 2022.1 Deployment VM [CentOS7.8](https://portal.azure.com/#cre
 **Q:** If I deploy my own Ubuntu18.04 VM then what are the required packages and steps?
 
 **A:** Follow the guidance in Xilinx XRT documentation [Xilinx XRT documentation](https://docs.xilinx.com/r/en-US/ug1451-xrt-release-notes/XRT-Operating-System-Support)
-       
-Install the following packages.
-- xrt_202210.2.13.479_18.04-amd64-xrt.deb
 
-- xrt_202210.2.13.479_18.04-amd64-azure.deb
-       
-- xilinx-u250-gen3x16-xdma-platform-2.1-3_all_18.04.deb.tar.gz
-       
-- xilinx-u250-gen3x16-xdma-validate_2.1-3005608.1_all.deb  
+>Install the following packages.
+>- xrt_202210.2.13.479_18.04-amd64-xrt.deb
+>
+>- xrt_202210.2.13.479_18.04-amd64-azure.deb
+>       
+>- xilinx-u250-gen3x16-xdma-platform-2.1-3_all_18.04.deb.tar.gz
+>       
+>- xilinx-u250-gen3x16-xdma-validate_2.1-3005608.1_all.deb  
 
 **Q:** If I deploy my own Ubuntu20.04 VM then what are the required packages and steps?
 
 **A:** Follow the guidance in Xilinx XRT documentation [Xilinx XRT documentation](https://docs.xilinx.com/r/en-US/ug1451-xrt-release-notes/XRT-Operating-System-Support)
        
-Install the following packages.
-- xrt_202210.2.13.479_20.04-amd64-xrt.deb
-       
-- xrt_202210.2.13.479_20.04-amd64-azure.deb
-       
-- xilinx-u250-gen3x16-xdma-platform-2.1-3_all_18.04.deb.tar.gz
-       
-- xilinx-u250-gen3x16-xdma-validate_2.1-3005608.1_all.deb  
+>Install the following packages.
+>- xrt_202210.2.13.479_20.04-amd64-xrt.deb
+>       
+>- xrt_202210.2.13.479_20.04-amd64-azure.deb
+>       
+>- xilinx-u250-gen3x16-xdma-platform-2.1-3_all_18.04.deb.tar.gz
+>       
+>- xilinx-u250-gen3x16-xdma-validate_2.1-3005608.1_all.deb  
 
 
 **Q:** If I deploy my own CentOS7.8 VM then what are the required packages and steps?
 
 **A:** Follow the guidance in Xilinx XRT documentation [Xilinx XRT documentation](https://docs.xilinx.com/r/en-US/ug1451-xrt-release-notes/XRT-Operating-System-Support)
 
- Install the following packages.
-   
- - xrt_202210.2.13.479_7.8.2003-x86_64-xrt.rpm
-      
- - xrt_202210.2.13.479_7.8.2003-x86_64-azure.rpm
-     
- - xilinx-u250-gen3x16-xdma-platform-2.1-3.noarch.rpm.tar.gz 
-      
- - xilinx-u250-gen3x16-xdma-validate-2.1-3005608.1.noarch.rpm  
+ >Install the following packages.  
+ >- xrt_202210.2.13.479_7.8.2003-x86_64-xrt.rpm
+ >     
+ >- xrt_202210.2.13.479_7.8.2003-x86_64-azure.rpm
+ >    
+ >- xilinx-u250-gen3x16-xdma-platform-2.1-3.noarch.rpm.tar.gz 
+ >     
+ >- xilinx-u250-gen3x16-xdma-validate-2.1-3005608.1.noarch.rpm  
 
 **Q:** What are the differences between OnPrem and NP VMs?
 
